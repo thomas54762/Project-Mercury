@@ -63,6 +63,7 @@ for ticker in tickers:
       wb = load_workbook(filename=file_path)
       sheet = wb.active
       
+      # can we also get the market cap and avg volume by any chance?
       new_data = [latest_trading_day_str, ticker, openFirstBar, closeLastBar, percentageGain, totalGain]
       sheet.append(new_data)
       wb.save(file_path)
