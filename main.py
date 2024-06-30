@@ -35,8 +35,6 @@ for ticker in tickers:
 
    if response.status_code == 200:
       data = response.json()
-
-      # Extract time series data
       time_series = data[f'Time Series ({interval})']
       first_15_bars = []
 
