@@ -19,6 +19,8 @@ n_rows, df = (Query()
     Column('exchange').isin(['NASDAQ', 'NYSE'])
  ).get_scanner_data())
 
+
+# make a dictionary to store more premarket data.
 tickers = df["name"].tolist()
 
 for ticker in tickers:
