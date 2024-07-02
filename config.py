@@ -1,0 +1,10 @@
+alpha_vantage_key = "6XSD0XKGJCSLNBRR"
+#alpha_vantage_key = "TKPHWXG87WPEI13N"
+interval = '1min'
+outputsize = 'full'
+file_path = 'stock_data.xlsx'
+smtp_server = 'smtp.gmail.com'
+smtp_port = 587
+smtp_user = 'thomasvanbuuren91@gmail.com'
+smtp_password = 'miil ydmh yaiv afwy'
+to_email = "tomaziyo@outlook.com"
